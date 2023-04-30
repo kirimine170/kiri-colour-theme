@@ -1,0 +1,21 @@
+{
+  "name": "kiri-colour-theme",
+  "displayName": "kiri-colour-theme",
+  "description": "VSCode colour theme by kirimine170",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "kiri-colour-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kiri-colour-theme-color-theme.json"
+      }
+    ]
+  }
+}
